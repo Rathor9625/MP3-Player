@@ -251,12 +251,12 @@ def get_icon(path):
         return None
 
 icons = {
-    'prev': get_icon('icons/back.png'),
-    'next': get_icon('icons/forward.png'),
-    'play': get_icon('icons/play.png'),
-    'pause': get_icon('icons/pause.png'),
-    'skip_f': get_icon('icons/seek_forward_10.png'),
-    'skip_b': get_icon('icons/seek_back_10.png')
+    'prev': get_icon('back.png'),
+    'next': get_icon('forward.png'),
+    'play': get_icon('play.png'),
+    'pause': get_icon('pause.png'),
+    'skip_f': get_icon('seek_forward_10.png'),
+    'skip_b': get_icon('seek_back_10.png')
 }
 
 # Grid buttons with refined spacing
